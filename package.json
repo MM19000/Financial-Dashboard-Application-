@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "seed": "node -r ./scripts/seed.js",
     "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "@vercel/postgres": "^0.10.0",
     "clsx": "^2.1.1",
     "next": "14.2.8",
     "react": "^18",
@@ -19,6 +21,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "dotenv": "^16.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.8",
     "postcss": "^8",
